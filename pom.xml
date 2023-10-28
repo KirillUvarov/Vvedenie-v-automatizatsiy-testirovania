@@ -4,26 +4,26 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.max</groupId>
-    <artifactId>auto</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
+    <groupId>org.max</groupId> <!-- Наименование организации ли подразделения -->
+    <artifactId>auto</artifactId> <!--Название проекта-->
+    <version>1.0-SNAPSHOT</version>  <!-- Версия проекта. SNAPSHOT - не конечная версия продукта -->
+    <!-- -->
     <!-- Переменные -->
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.source>17</maven.compiler.source> <!-- Версии зависимостей или плагинов-->
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <!-- Архивирование -->
-    <packaging>jar</packaging>
+    <packaging>jar</packaging> <!-- Каким образом мы хотим получить результат. Может быть вариант: pom, jav, var, eap? -->
 
-    <name>Демо проект</name>
-    <description>Демонстрационный проект для курса введения в автоматизацию</description>
-    <url>http://demo.max.org</url>
+    <name>Демо проект</name> <!-- Наименование нашего проекта -->
+    <description>Демонстрационный проект для курса введения в автоматизацию</description> <!-- Описание нашего проекта-->
+    <url>http://demo.max.org</url> <!-- URL нашего проекта-->
 
     <!-- Зависимости -->
     <dependencies>
-
+        <!-- -->
     </dependencies>
 
     <!-- Сборка -->
